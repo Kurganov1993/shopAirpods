@@ -101,7 +101,7 @@ body {
 }
 
 .cart-heading {
-  @apply flex items-center text-[18px] font-[500] cursor-pointer gap-[2px] ml-[10px] border-none bg-[transparent];
+  @apply flex items-center text-[18px] font-[500] cursor-pointer gap-[20px] ml-[10px] border-none bg-[transparent];
 }
 
 .cart-heading .heading {
