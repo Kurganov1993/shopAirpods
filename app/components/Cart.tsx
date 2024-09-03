@@ -68,7 +68,7 @@ const Cart = () => {
                             <h3>${totalPrice}</h3>
                         </div>
                         <div className='btn-container'>
-                            <button type='button' className='bg-black text-white text-center w-full rounded-3xl py-2 hover:bg-accent mb-4 mt-4'>
+                            <button type='button' className='bg-black text-white text-center w-full rounded-3xl py-2 hover:bg-accent mb-20'>
                                 Pay with Stripe
                             </button>
                         </div>
