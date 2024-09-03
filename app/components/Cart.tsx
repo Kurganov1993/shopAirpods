@@ -14,8 +14,8 @@ const Cart = () => {
     }
 
     return (
-        <div className="bg-[#0000007d] w-full min-h-screen fixed left-0 top-0">
-            <div className='max-w-full w-full min-h-screen bg-white absolute right-0 top-0 p-6'>
+        <div className="cart-wrapper">
+            <div className='cart-container sm:w-full'>
                 <button className='cart-heading' onClick={handleClose}>
                     <AiOutlineLeft />
                     <span className='heading'>Your Cart</span>
