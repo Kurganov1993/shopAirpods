@@ -14,8 +14,8 @@ const Cart = () => {
     }
 
     return (
-        <div className="bg-[#0000007d] w-full min-h-screen fixed left-0 top-0 z-20 overflow-y-scroll">
-            <div className='max-w-[400px] w-full min-h-full bg-white absolute right-0 top-0 p-6'>
+        <div className="bg-[#0000007d] w-full min-h-screen fixed left-0 top-0">
+            <div className='max-w-full w-full min-h-screen bg-white absolute right-0 top-0 p-6'>
                 <button className='cart-heading' onClick={handleClose}>
                     <AiOutlineLeft />
                     <span className='heading'>Your Cart</span>
@@ -68,7 +68,7 @@ const Cart = () => {
                             <h3>${totalPrice}</h3>
                         </div>
                         <div className='btn-container'>
-                            <button type='button' className='checkout-btn'>
+                            <button type='button' className='bg-black text-white text-center w-full rounded-3xl py-2 hover:bg-accent mb-4 mt-4'>
                                 Pay with Stripe
                             </button>
                         </div>
