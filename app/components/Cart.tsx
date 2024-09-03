@@ -14,8 +14,8 @@ const Cart = () => {
     }
 
     return (
-        <div className='cart-wrapper'>
-            <div className='cart-container'>
+        <div className="bg-[#0000007d] w-full min-h-screen fixed left-0 top-0 z-20 overflow-y-scroll">
+            <div className='max-w-[400px] w-full min-h-full bg-white absolute right-0 top-0 p-6'>
                 <button className='cart-heading' onClick={handleClose}>
                     <AiOutlineLeft />
                     <span className='heading'>Your Cart</span>
@@ -28,9 +28,9 @@ const Cart = () => {
                                 loader={() => urlFor(product.images[0]).url()}
                                 src={urlFor(product.images[0]).url()}
                                 alt={product.images[0]}
-                                width={200}
-                                height={200}
-                                className='object-cover'
+                                width={150}
+                                height={150}
+                                className='object-cover rounded-md'
                             />
                             <div className='item-desc'>
                                 <div className='flex top'>
