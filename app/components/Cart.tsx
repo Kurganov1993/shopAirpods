@@ -15,7 +15,7 @@ const Cart = () => {
 
     return (
         <div className="cart-wrapper">
-            <div className='cart-container sm:w-full'>
+            <div className='border h-[100vh]  bg-white float-right px-[40px] py-[50px] relative '>
                 <button className='cart-heading' onClick={handleClose}>
                     <AiOutlineLeft />
                     <span className='heading'>Your Cart</span>
@@ -28,8 +28,8 @@ const Cart = () => {
                                 loader={() => urlFor(product.images[0]).url()}
                                 src={urlFor(product.images[0]).url()}
                                 alt={product.images[0]}
-                                width={150}
-                                height={150}
+                                width={100}
+                                height={30}
                                 className='object-cover rounded-md'
                             />
                             <div className='item-desc'>
